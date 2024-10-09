@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    background-image: linear-gradient(rgb(178, 41, 178), rgb(204, 149, 230), rgb(143, 30, 196));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #subContainer{
+    width:430px;
+    border: 10px solid rgba(255, 228, 228, 0.1);
+    height: 500px;
+    background-color: rgba(255, 228, 228, 0.1);
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+  #header{
+    color:paleturquoise;
+    font-family:cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+  }
+  #city{
+    border-radius:5px;
+    width:250px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    color: purple;
+    font-family:cursive;
+    
+  }
+  #btn{
+    height: 40px;
+    border-radius:5px;
+    border: none;
+    font-family:cursive;
+    color:purple;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #humidityImage{
+    height:120px;
+    text-align: center;
+    
+  }
+  .tempImage{
+    width:100%;
+    display: flex;
+    height:20%;
+    
+  }
+  #temp, #temp1, #speed, #speed1{
+    padding-left:20px;
+    text-align: center;
+    color:paleturquoise;
+    font-family:cursive;
+    font-size: xx-large;
+  }
+  #temp1, #speed1{
+    display: none;
+  }
+  #cityName{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-weight: 600;
+    color:paleturquoise;
+    font-family:cursive;
+  }
+  #description{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+    color:paleturquoise;
+    font-family:cursive
+  }
+  #errorImg, #errorMsg{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
